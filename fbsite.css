@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0 10px;
+    font-family: sans-serif;
+}
+
+.facebook{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+.tag{
+    background-color: cadetblue;
+    padding: 7px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.lll{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+
+.word{
+    display: flex;
+}
+
+.ppp{
+    display: flex;
+    gap: 40px; 
+    margin-top: 10px;
+}
+
+.word input{
+      padding: 15px 5px;
+      margin-left: 30px;
+      cursor: pointer;
+}
+
+.incon{
+    background-color:cadetblue ;
+    padding: 10px 10px;
+    height: 34px;
+}
+
+.word2{
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+.with{
+    display: flex;
+}
+
+.word2 .Pcp{
+    padding-top:20px;
+}
+
+.word2 .with{
+    width: 20%;
+    margin-top: 20px;
+}
+
+.word2 .content{
+      font-weight: bolder; 
+      font-size: 30px;
+}
+
+.container .bttn{
+    background-color: rgba(0, 0, 255, 0.623);
+    border: 1px rgba(0, 0, 0, 0.651) solid;
+    width: 200px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    
+}
+
+.www{
+   display: flex;
+   gap: 10px;
+}
+
+.out{
+    display: flex;
+    gap:15px;
+}
+
+
+.with .line{
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    width:  205px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin: 5px 0;
+}
+
+.line-type p{
+    margin-left: 30px;
+    font-weight: bolder;
+}
+
+.image-word{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    height: 75vh;
+}    
+
+.div2 p{
+    padding-left: 30px;
+    font-weight: bolder;
+}
+
+.container{
+    display: flex;  
+    cursor: pointer;
+}
+
+.image-word{
+    padding-left: 50px;
+    overflow-x: hidden;
+}
+.image-word::-webkit-scrollbar{
+    background: rgb(250, 247, 247);
+    display: none;
+}
+.imw{
+    display: flex;
+    gap: 10px;
+    width: 500px;
+    
+}
+
+.bord{
+    border: 1px rgba(0, 0, 0, 0.377) solid;
+    border-radius: 5px;
+    width: 1100px;
+    height: 80px;
+    padding: 10px 15px;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    box-shadow: 2PX 2PX 5PX rgba(0, 0, 0, 0.2);
+}
+
+h4{
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+input{
+    width:76%; 
+    height: 69%;
+    cursor: pointer;
+    outline: none;
+}
+
+button{
+    padding:10px 30px;
+    background-color: blue;
+    border: 1px rgba(0, 0, 0, 0.616) solid;
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+
+.image-word img{
+     height: 50px;
+     width: 50px;
+     border-radius: 5px;
+
+}
+
+.jan{
+    display: flex;
+    gap: 10px;
+    width: 610px;
+    margin-bottom: 20px;
+}
+
+.name{
+    color: blue;
+}
+
+.new{
+    font-size: 15px;
+}
+
+.end{
+    color: blue;
+    font-size: 18px;
+}
+
+.header3{
+    padding-left: 5px;
+    overflow: auto;
+    height: 75vh;
+}
+
+.header3::-webkit-scrollbar{
+    background: rgb(250, 247, 247);
+    display: none;
+}
+
+.linettt{
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    width:  440px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin: 5px 0;
+}
+
+.linett{
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    width:  500px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin: 5px 0;
+}
+
+.header3 h1{
+        font-weight: lighter;
+        color: rgba(128, 128, 128, 0.815);
+        font-size: 18px;
+}
+
+
+
+.two{
+    display: flex;
+    gap: 190px;
+}
+
+.two .inc{
+     padding-top: 6px;
+     font-size: 20px;
+}
+
+.two h4{
+    color: rgba(0, 0, 255, 0.651);
+    font-weight: lighter;
+    
+}
+
+.ads{
+    display: flex;
+    gap: 20px;
+}
+
+.ads1{
+    height: 70px;
+    width: 160px;
+    background-color:blue;
+    color: white;
+    padding:5px 10px;
+    font-size: 18px;
+}
+
+.ads2{
+    height:40px;
+    width: 160px;
+    background-color: gray;
+    margin-left: -10px;
+}
+
+
+.nnn{
+    font-size: 25px;
+    padding: 5px 12px;
+    color: white;
+}
+
+.tet{
+    font-size: 17px;
+}
+
+h4{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.k1 img{
+    height: 80px;
+    width: 125px;
+}
+
+.kkk{
+    margin: 10px 0;
+}
+
+
+.k1{
+    display: flex;
+    gap: 18px;
+    color: rgb(36, 36, 206);
+}
+
+.yyy{
+    color: rgb(34, 26, 26);
+}
+
+.cl{
+    color: black;
+}

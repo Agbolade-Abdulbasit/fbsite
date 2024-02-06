@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.header1{
+       background-color:whitesmoke;
+       text-align: center;
+       padding: 25px;
+       font-size: 15px;
+}
+
+a{
+    color: inherit;
+}
+
+.header2{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    align-items: center;
+}
+
+ .logo img{
+     width: 100px;
+} 
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.one {
+    font-weight: bold;
+}
+ul li{
+    font-weight: lighter;
+    padding: 10px;
+    border-radius: 20px;
+    transition: background .3s;
+}
+
+
+.fff:hover{
+    background: #efefef;
+}
+
+.word{
+    display: flex;
+    gap: 20px; 
+    align-items: center;
+}
+
+.pppp{
+    padding: 10px;
+    border-radius: 20px;
+    transition: background .3s;
+    cursor: pointer;
+}
+
+.pppp:hover{
+    background: #efefef;
+}
+
+.globe{
+    padding:10px;
+    margin: auto 0;
+    height: fit-content;
+    transition: background .3s;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+.globe:hover{
+    background: #efefef;
+}
+
+.search{
+    border: 2px #efefef solid;
+    padding: 5px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: box shadow .1s;
+    margin: auto 0;
+}
+.search .inco-user{
+    font-size: 25px;
+}
+
+.search:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bttn{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 0 300px;
+    border-radius: 50px;
+    border: 2px solid whitesmoke;
+    background-color: white;
+    cursor: pointer;
+}
+
+.where input{
+    border: none;
+    background: transparent;
+}
+.line{
+    border: 1px solid #efefef;
+    width:  2px;
+}
+
+.where{
+    padding:10px 20px;
+    border-radius: 20px;
+}
+
+.where:hover{
+    background: #efefef;
+}
+
+.incon{
+    background-color: orangered;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+.sss{
+    color: white;
+    font-size: 20px;
+}
